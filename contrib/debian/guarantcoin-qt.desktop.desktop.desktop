@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Guarantcoin
+Comment=Guarantcoin P2P Cryptocurrency
+Exec=/usr/bin/guarantcoin-qt %u
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/guarantcoin128.png
+MimeType=x-scheme-handler/bitcoin;
+Categories=Office;
+Name[en_US]=guarantcoin-qt.desktop.desktop

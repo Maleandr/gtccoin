@@ -1,0 +1,6 @@
+guarantcoin-qt usr/bin
+share/pixmaps/guarantcoin32.xpm usr/share/pixmaps
+share/pixmaps/guarantcoin16.xpm usr/share/pixmaps
+share/pixmaps/guarantcoin128.png usr/share/pixmaps
+debian/guarantcoin-qt.desktop usr/share/applications
+debian/guarantcoin-qt.protocol usr/share/kde4/services/

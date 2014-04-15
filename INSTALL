@@ -1,0 +1,12 @@
+Building Guarantcoin
+
+See doc/readme-qt.rst for instructions on building Guarantcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Guarantcoin.
+
+See doc/build-*.txt for instructions on building guarantcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Guarantcoin.
+
+Further build information and documentation is available at
+the official Guarantcoin website, http://www.guarantcoin.org
