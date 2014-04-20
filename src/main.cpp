@@ -3333,7 +3333,7 @@ bool static AlreadyHave(const CInv& inv) {
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xfa, 0xbf, 0xb5, 0xda }; // Guarantcoin: increase each by adding 1 to bitcoin's value.
+unsigned char pchMessageStart[4] = { 0xfb, 0xc0, 0xb6, 0xdb }; // Guarantcoin: increase each by adding 1 to vertcoin's value.
 
 void static ProcessGetData(CNode* pfrom) {
 	std::deque<CInv>::iterator it = pfrom->vRecvGetData.begin();
