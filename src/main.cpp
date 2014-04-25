@@ -1080,16 +1080,13 @@ unsigned char GetNfactor(int64 nTimestamp) {
 }
 
 int64 static GetBlockValue(int nHeight, int64 nFees) {
-    int64 nSubsidy = 100 * COIN;
+    int64 nSubsidy = 10 * COIN;
 
     if(nHeight == 1)
     {
             nSubsidy = MAX_MONEY * 0.5;
             return nSubsidy + nFees;
     }
-
-	// Subsidy is cut in half every 103680 blocks, which will occur approximately every 1/2 year
-	nSubsidy >>= (nHeight / 103680); // Guarantcoin: 103k blocks in ~1/2 year
 
 	return nSubsidy + nFees;
 }
