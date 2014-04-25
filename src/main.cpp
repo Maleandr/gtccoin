@@ -1086,7 +1086,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees) {
     {
             nSubsidy = MAX_MONEY * 0.5;
             return nSubsidy + nFees;
-    }else if(nHeight == 1150)
+    }else if(nHeight >= 1150)
     {
              nSubsidy = 10 * COIN;
     }
